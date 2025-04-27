@@ -1,27 +1,72 @@
-# Flutter Responsive Admin/Dashboard Template
+# Car Rental Admin Panel
 
-## [Live Preview](https://abuanwar072.github.io/Flutter-Responsive-Admin-Panel-or-Dashboard/#/)
+A web-based **Admin Panel** for managing a **Car Rental System** with **Firebase** as the backend. This panel allows administrators to manage the fleet, customer bookings, payments, and other essential aspects of a car rental business.
 
-I've created a step-by-step video tutorial to guide you through the process of building this responsive admin panel. **[Watch it on YouTube](https://youtu.be/_uOgXpEHNbc)**
+## Features
 
-### Checkout [Serverpod.dev](https://cutt.ly/Per1Z7ri) - The Flutter Backend
+### 1. **Dashboard Overview**
+   - View key metrics like total bookings, available cars, active rentals, and overall revenue.
+   - Quick access to the status of the rental system.
 
-Flutter V2.\* has officially introduced web support on its stable branch. Today, I'm excited to present a Flutter-based Admin panel, often referred to as a dashboard UI. This Flutter dashboard template, which you can find on GitHub, is a comprehensive solution for your app's backend needs. It comes with a wide array of features including charts, tables, and neatly designed info cards.
+### 2. **Car Management**
+   - Add, edit, or remove cars from the fleet.
+   - Set availability statuses of cars (available, rented, under maintenance).
+   - View car details and assign maintenance schedules.
 
-This flutter dashboard library is versatile; it's tailored to work seamlessly on the Web, macOS app, tablets, and both Android and iOS phones. The principle 'code once, run everywhere' truly comes to life with this.
+### 3. **Booking Management**
+   - Manage customer bookings, including booking dates, car details, and payment statuses.
+   - Ability to cancel or modify bookings.
+   - Access to booking history for reference.
 
-**Packages we are using:**
+### 4. **Customer Management**
+   - View customer profiles, booking history, and personal information.
+   - Manage customer permissions and access rights.
+   - Track customer feedback or complaints.
 
-- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
-- google_fonts: [link](https://pub.dev/packages/google_fonts)
-- provider: [link](https://pub.dev/packages/provider)
+### 5. **Payment Management**
+   - Monitor payments for car rentals, including deposits and extra charges.
+   - Generate invoices for customers.
+   - Track payment statuses for ongoing and completed bookings.
 
-**Fonts**
+### 6. **Vehicle Maintenance**
+   - Schedule and track car maintenance activities.
+   - Keep logs of past service and repairs.
 
-- Poppins [link](https://fonts.google.com/specimen/Poppins)
+### 7. **Reports and Analytics**
+   - Generate reports on car utilization, revenue, and customer trends.
+   - View detailed analytics to optimize fleet and pricing strategies.
 
-### Responsive Admin Panel or Dashboard Final UI Preview
+### 8. **Notifications and Alerts**
+   - Real-time alerts for new bookings, late returns, or upcoming vehicle maintenance.
+   - Admin notifications for urgent tasks.
 
-![Preview](/gif.gif)
+### 9. **User-Friendly Interface**
+   - Easy navigation for admins with a clean and responsive design.
+   - Optimized for both desktop and mobile devices.
 
-![App UI](/ui.png)
+### 10. **Security Features**
+   - Role-based access control to limit access to certain features.
+   - Detailed audit logs to track all user actions within the admin panel.
+
+## Technologies Used
+
+- **Frontend**: React.js (or Vue.js/Angular)
+- **Backend**: Firebase (Firestore, Firebase Authentication)
+- **Authentication**: Firebase Authentication for secure login
+- **Hosting**: Firebase Hosting for easy deployment
+
+## Getting Started
+
+To set up the **Car Rental Admin Panel** locally, follow the steps below:
+
+### Prerequisites
+
+1. **Node.js** (for frontend) – [Install Node.js](https://nodejs.org/en/download/)
+2. **Firebase Account** – [Create Firebase Project](https://console.firebase.google.com/)
+3. **Git** – [Install Git](https://git-scm.com/)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/car-rental-admin-panel.git
+cd car-rental-admin-panel
